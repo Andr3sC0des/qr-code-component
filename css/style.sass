@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap')
+        
+$white: hsl(0, 0%, 100%)
+$light-gray: hsl(212, 45%, 89%)
+$grayish-blue: hsl(220, 15%, 55%)
+$dark-blue: hsl(218, 44%, 22%)
+
+$font-size: 15px
+$family: 'Outfit', sans-serif  //400, 700
+$interlineado: 1rem
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    font-family: $family
+
+html
+    font-size: $font-size
+
+.qrcon
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100vh
+    background: $light-gray
+.qr
+    margin: 1rem
+    padding: 0.8rem
+    background: $white
+    border-radius: 1rem
+    display: flex
+    justify-content: space-around
+    align-items: center
+    flex-direction: column
+    &__image
+        width: 100%
+        max-width: 300px
+        border-radius: 1rem
+    h2
+        margin-top: $interlineado
+        font-weight: 700
+        max-width: 18rem
+        text-align: center
+    p
+        margin-top: $interlineado
+        max-width: 18rem
+        color: $grayish-blue
+        font-weight: 400
+        text-align: center
+        margin-bottom: $interlineado
+
+
+
