@@ -1,12 +1,18 @@
 # QR code component
 
-## TAGS
+## Built with
 
-- flexbox
-- responsive
+- Flexbox
+- Responsive
+- Desktop-first workflow
 
 ---
+## Links
 
+- Solution URL: https://github.com/Andr3sC0des/qr-code-component
+- Live Site URL: https://andr3sc0des.github.io/qr-code-component
+
+---
 ## SKILLS
 
 - HTML
